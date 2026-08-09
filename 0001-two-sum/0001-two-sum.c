@@ -10,6 +10,7 @@ for (i=0;i<numsSize;i++){
         if(nums[i]+nums[j]==target && i!=j){
             arr[0]=i;
             arr[1]=j;
+            break;
         }
     }
 
