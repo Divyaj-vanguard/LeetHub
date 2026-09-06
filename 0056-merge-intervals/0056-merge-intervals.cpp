@@ -1,9 +1,9 @@
-
+using namespace std;
 class Solution {
 public:
-    std::vector<vector<int>> merge(std::vector<vector<int>>& intervals) {
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
      int i;
-    std::vector<vector<int>> result;
+    vector<vector<int>> result;
      sort(intervals.begin(),intervals.end());
      result.push_back(intervals[0]);
         
